@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 90%;
+
+	text-align: center;
+	margin: auto;
+
+
+}
+
+.col-container {
+	padding-top: 25px;
+}
+
+.fcol {
+
+	float: left;
+	width: 33.33%;
+	background: linear gradient(to bottom left, blue, red);
+
+	margin: auto;
+	text-align: center;
+}
+
+.para {
+	padding: 10px;
+}
+
+.hack {
+	height: 150px;
+	width: 150px;
+	transition: all .5s;
+}
+
+.hack:hover {
+	filter: drop-shadow(skyblue 8px 8px 8px);
+}
+
+/*========
+image section 
+===========*/
+.image {
+	border: 2px solid black;
+	height: 400px;
+	width: 400px;
+	margin-left: 200px;
+
+	text-align: center;
+	justify-content: center;
+	background: linear-gradient(to bottom right, blue, red);
+	background-attachment: fixed;
+
+}
+
+.image:hover {
+	border-radius: 25px;
+	font-size: 50px;
+}
+
+/* SECTION 2 */
+.sec-2 {
+	margin-top: 20px;
+}
+
+.col-wrapper {
+	margin-top: 25px;
+}
+
+.explaination {
+	margin: 188px 47px 0px 48px;
+	padding: 0;
+}
